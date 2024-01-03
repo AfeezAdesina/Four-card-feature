@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* CSS Reset */
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Set default font family and size */
+body {
+    font-size: 15px;
+    background-color: var(--Very-light-gray);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    
+}
+
+/* Reset list styles */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Reset anchor styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset button styles */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Add any additional CSS reset rules here */
+
+
+/* END: CSS Reset */
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+.container{
+    max-width: 1000px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+    color: var(--Grayish-Blue);
+}
+.header:last-child{
+    margin-top: 0;
+}
+.reliable{
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.powered{
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
+    font-size: 30px;
+}
+.header-text{
+    font-size: 13px;
+    line-height: 2;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 265px;
+
+}
+
+.figure-block{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+figure{
+    max-width: 300px;
+    background-color:var(--Very-Light-Gray);
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.karma{
+    box-shadow: 0px -3px 0px var(--Orange), 0px 5px 15px rgba(0, 0, 0, 0.248);
+}
+.calculator{
+    box-shadow: 0px -3px 0px var(--Blue), 0px 5px 15px rgba(0, 0, 0, 0.248);
+}
+.supervisor{
+    box-shadow: 0px -3px 0px var(--Cyan), 0px 5px 15px rgba(0, 0, 0, 0.248);
+}
+.builder{
+    box-shadow: 0px -3px 0px var(--Red),0px 5px 15px rgba(0, 0, 0, 0.248);
+}
+h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--Very-Dark-Blue);
+}
+.figure-block p{
+    font-size: 12px;
+    line-height: 2;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+}
+
+svg{
+    margin-top: 30px;
+    margin-left: auto;
+}
+
+@media screen and (max-width:576px){
+    .container, .figure-block, .middle{
+        display: block;
+        max-width: 300px;
+    }
+    figure{
+        margin-bottom:30px ;
+    }
+    .powered, .reliable{
+        font-size: 24px;
+    }
+    .header-text{
+        padding: 0;
+    }
+}
