@@ -18,7 +18,7 @@ This is a solution to the [ Four-card-feature challenge on Frontend Mentor]. Fro
 
 ### Screenshot
 
-![](/four-card-feature-section-master/design/Fourcard.png)
+![](/Fourcard.png)
 
 
 
