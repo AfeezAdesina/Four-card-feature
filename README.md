@@ -2,7 +2,7 @@
 
 # Frontend Mentor -  Four-card-feature solution
 
-This is a solution to the [ Four-card-feature challenge on Frontend Mentor]. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [ Four-card-feature challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-laUsJfY11O). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,8 +24,8 @@ This is a solution to the [ Four-card-feature challenge on Frontend Mentor]. Fro
 
 ### Links
 
-- Solution URL:[ Frontendmentor.io](https://www.frontendmentor.io/solutions/blog-preview-page-dCZFQD-jmM)
-- Live Site URL:[Blog Preview](https://blog-preview-seven.vercel.app)
+- Solution URL:[ Frontendmentor.io](https://www.frontendmentor.io/solutions/four-card-feature-laUsJfY11O)
+- Live Site URL:[Four card feature](https://four-card-feature-six-self.vercel.app/)
 
 ## My process
 
